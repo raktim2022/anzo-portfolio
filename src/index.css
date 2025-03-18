@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: anzo2;
+    src: url("/madefor-text.ttf");
+}
+
+@font-face {
+    font-family: anzo1;
+    src: url("/Morganite.ttf");
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #FAFAFA;
+}
+
+.title{
+    perspective: 1000px;
+}
