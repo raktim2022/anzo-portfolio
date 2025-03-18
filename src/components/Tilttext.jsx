@@ -3,7 +3,12 @@ import gsap from "gsap";
 
 const Tilttext = ({titleref}) => {
   return (
-    <div className="title h-full">
+    <div className="title h-full relative" style={{
+      backgroundImage: `url(${"https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"})`,
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      backgroundRepeat: "no-repeat"
+    }}>
       <div ref={titleref} className="text-white transition-all ease-linear duration-500 absolute mt-24 leading-none font-[anzo2] font-extrabold tracking-tighter">
         <h1 className="text-white text-[4.2vw] tracking-tighter uppercase">
           i am <span className="text-zinc-600">dark mode</span> <sup>tm</sup>
